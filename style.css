@@ -1,0 +1,82 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+  }
+  
+  .game-container {
+    text-align: center;
+    max-width: 600px;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 18px; 
+  }
+  
+  .score-strikes {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .score-strikes div {
+    text-align: center;
+  }
+  
+  .score-strikes p {
+    font-size: 34px;
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  .score-strikes span {
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+  }
+  
+  .scrambled-word {
+    font-size: 46px; 
+    font-weight: bold;
+    margin: 18px 0;
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 16px; 
+    width: 75%;
+    margin: 10px 0; 
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+  }
+  
+  button {
+    padding: 9px 18px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  
+  .pass-button {
+    background-color: #480c42;
+    color: #fff;
+    border: none;
+    padding: 9px 18px;
+    border-radius: 5px;
+  }
+  
+  .message {
+    margin-top: 18px;
+    font-size: 17px;
+    color: #27ae60;
+  }
+  
